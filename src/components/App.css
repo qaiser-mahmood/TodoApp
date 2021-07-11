@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.todo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20rem;
+  width: fit-content;
+}
+.todo > *{
+  margin-right: 2rem;
+}
+
+.completedTodo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20rem;
+  background-color: lightblue;
+  width: fit-content;
+}
+.completedTodo > *{
+  margin-right: 2rem;
+}
